@@ -1,5 +1,4 @@
 
-/* navigation section*/
 html {
   box-sizing: border-box;
 }
@@ -7,219 +6,177 @@ html {
   box-sizing: inherit;
 }
 
-
-
-
-
-body {
- 
-    font-family: 'Roboto', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    line-height: 1;
-}
-
-
 html {
-	-webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+   
+  
+
 }
 
-.top-navigation {
-	background-color: #fff;
-    position: fixed;
-	width: 100%;
+
+.navigation {
+    background-color: #fff;
+    position:fixed;
+    width: 100%;
     z-index: 9999;
     border-bottom: 1px solid #DDD;
-}
-	
-.top-navigation > .content  {
-	width: 970px;
-	height: 70px;
-	margin: 0 auto;
-	padding: 0px 15px;
-    background-color: #fff;
-
-}
-
-.top-navigation .logo {
-	height: 4.375rem;
-	margin-left: 1.563rem;
+    height: 70px;
+    top: 0px;
 }
 
 
-
-.top-navigation links li {
-	display: inline-block;
-    margin-left: 25px;
+.work-paragraph p {
+    text-align: left;
+    padding-left: 5px;
 }
-
-
-
-
-.top-navigation .links {
-float: right;
-font-family: 'Roboto', sans-serif;
-font-size: 16px;
-color: #838994;
-letter-spacing: 0.03em;
-margin-top: 1.7rem;
-margin-right: 1.7rem;
-}
-
-
-.top-navigation .links > .active {
-
-color: #4c5058;
-font-weight: 500;
-
-}
-
-.top-navigation .links li:hover {
-	cursor: pointer;
-    color: #333333;
-}
-
-.links > li {
-
-display: inline-block;
-margin-left: 1.563rem;
 
 }
 
 
-.content {
+.navigation > .content {
 
- padding: 0px 15px;
- color: white;	
- box-sizing: border-box;
+    height: 5.375rem;
+
 }
 
-.contents {
- color: white;
-  text-align:center;
+
+
+.content  {
+
+     width: 60rem;
+
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+    color: black;
+    font-weight: 500;
+    float: right;
+    font-size:1.04rem;
+    margin-top: 1.7rem;
+    list-style: none;
+    box-sizing: border-box;
+    font-style: 'roboto', sans-serif;
+}
+
+
+.name {
+
+    float:left;
+    height: 4.375rem;
+
   
-  top: 30%;
-  position: relative; 
-
-}
-
-.contents h1 {
-display: block;
-font-size: 50px;
-font-weight: 300;
-
-}
-
- .contents h3 {
-display: block;
-font-size: 25px;
-font-weight: 300;
-}
-
-
-.introduction {
-  background-image: url('../images/first-background.jpg');
-  background-position: center bottom;
-  background-repeat: no repeat;
-  background-size: cover;
-  height: 45.938rem;
-  overflow: auto;
-}
-
-
-
-.introduction .buttons {
-
-   color: white;
-   text-align: center;
-   margin-top: 1.563rem;
-  top: 30%;
-  position: relative; 
-
-}
-
-button {
-   width: 9.688rem;
-   background-color: #f15a29;
-   border-color:#f15a29;
-   text-shadow: none;
-   border-radius: 4px;
-   padding:1rem 1.5rem;
-   color: white;
-   font-size: 1.125rem;
-
-}
-
-@media (min-width: 62rem)
-.contents {
-    width: 60rem;
-}
-
-
-.cases h2 {
-    font-size: 2.75rem;
-    margin: 1.625rem 0 3.125rem;
-    font-weight: 300;
-}
-
-
-
-
-.cases .devices h3 {
-	font-weight: 400;
-    font-size: 1.563rem;
-    margin: 2.5rem 0px 1.875rem;
-    display: block;
-
-}
-
-
-
-.cases .devices  {
-	display: inline-block;
-	box-sizing: border-box;
-	height: 4em;
-	width: 20em;
    
-    text-align: center;
-}
- 
-.cases  li {
-    width: 32.3333333%;
-    float: left; 
-    list-style:none;
-
 }
 
-.cases {
-	background-color: #fff;
-    overflow: hidden;
-    padding-bottom: 5rem;
-	text-align:center;
-    margin-top: 7.875rem;
-   }
 
-.social {
-    background-color: #fff;
+.navigation .nav-links {
+
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: 0.03em;
+    margin-top: .10rem;
+    margin-right: 1.7rem;
+
+
+}
+
+
+.splash-image {
+
+    background-image: url('../images/Black-Pattern-Wallpaper.jpg');
+    background-position:center bottom;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: block;
+    height: 45.938rem;
     overflow: auto;
-    padding-bottom: 9.375rem;
+}
+
+
+.splash-text {
+
+    color: white;
+    padding-bottom: 30px;
+    position: relative;
+    top: -40px;
+}
+
+.splash-text h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
     text-align: center;
-}
 
-.content {
-    width: 60rem;
-}
 
-.social hr {
-    border: 0;
-    border-top: 1px solid #eaebec;
-    margin: 1.313rem 0;
+    
 }
 
 
-.content {
-    padding: 0 0.938rem;
+.portfolio-text h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+.middle-images li {
+    display: inline-block;
+    list-style: none;
+    box-sizing: border-box;
+    
+    margin-right: 1.563rem;
+    
+    border-width: 5px;   
+    border-style:ridge;
+    margin-bottom: 1.563rem;
+}
+
+
+
+.picture {
+
+    border:1px solid #021a40;
+    position: absolute;
+}
+
+
+
+
+.middle-text {
+
+    color: white;
+}
+
+::selection {
+    background: #f06;
+    color: #050505;
+    text-shadow: none;
+}
+body {
+    background: #fdfdfd;
+    color: #3d3d3d;
+    text-align: center;
+    font-family: Sans-Serif;
+    line-height: 1;
+}
+.wrap {
     margin: 0 auto;
-    min-width: 37.5rem;
+    width: 960px;
+    text-align: left;
+}
+a,
+a:visited {
+    color: inherit;
+    text-decoration: none;
 }
 
 footer { 
@@ -267,3 +224,56 @@ footer {
     font-weight: 300;
     color: #838994;
 }
+/*
+    ===========================
+    === Put you styles here ===
+    ===========================
+*/
+
+
+@media only screen and (max-width: 480px) {
+    .navigation {
+        padding: 3em 0;
+        width: 100%;
+
+    }
+    .splash-image {
+        font-size: 2em;
+        width: 100%;
+
+    }
+    .nav-links {
+        font-size: 3em;
+        width: 100%;
+
+    }
+  
+    .footer {
+        padding: 3em 0;
+        width: 100%;
+
+    }
+    .social text-center {
+        font-size: 3em;
+        width: 100%;
+
+    }
+    
+     
+}
+
+
+
+
+
+
+
+.clearfix{clear:both!important;}
+.no-read{speak:none;}
+.no-see,[hidden]{position:absolute;left:-9999px;}
+.no-select{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.none{display:none;}
+.align-left{text-align:left;}
+.align-center{text-align:center;}
+.align-right{text-align:right;}
+.align-justify{text-align:justify;}
